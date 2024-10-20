@@ -1,6 +1,7 @@
 // todas as funções que lidam com produto
 async function getFullName(codeId, productName) {
-    return codeId + "--" + productName;
+    console.log("productX: " + codeId + "--" + productName);
+     
 }
 
 module.exports = {
